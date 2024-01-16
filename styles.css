@@ -1,0 +1,323 @@
+body {
+    background-color: white;
+    margin: 100px;
+    padding: 10px;
+    margin-bottom: 100px;
+   
+
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 0.5fr 19fr;
+    background-color: rgb(226, 211, 211);
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(238, 222, 222);
+    gap: 10px;
+    height: 5vh;
+    width: 100vw;
+    list-style-position: outside;
+    border:  1px solid black;
+
+
+}
+
+#pay {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: end;
+    align-content: flex-start;
+    margin-top: 20px;
+    margin-left: 1px;
+}
+
+#user {
+    display: flex;
+  width: auto;
+  height: auto;
+    border-radius: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 50vw;
+    font-size: x-large;
+    align-items: center;
+    position: relative;
+    /* Make it relative when scrolling */
+    font-weight: bolder;
+    font: oblique;
+    text-transform: capitalize;
+}
+
+.list-1 {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    width: 30vw;
+    font-size: x-large;
+    align-items: center;
+    position: relative;
+    /* Make it relative when scrolling */
+    font-weight: bolder;
+    font: oblique;
+    text-transform: capitalize;
+
+}
+
+#nav-bar ul,
+li a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.section1 {
+    background-color: rgb(234, 234, 255);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+
+}
+
+.sec1 {
+    background-color: rgb(233, 228, 228);
+    border-radius: 100px;
+    margin: 90px;
+    border: 1px solid rgb(238, 204, 204);
+
+}
+
+.sec2 {
+    background-color: rgb(224, 211, 193);
+    border-radius: 100px;
+    margin: 90px;
+    justify-content: center;
+    border: 1px solid rgb(124, 107, 107);
+}
+
+.list1 {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 30vw;
+    font-size: x-large;
+    align-items: center;
+    position: relative;
+    /* Make it relative when scrolling */
+    font-weight: bolder;
+    font: oblique;
+    text-transform: capitalize;
+
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+}
+
+img {
+    display: flex;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 300px;
+}
+
+#Order {
+    display: flex;
+    font-size: xx-large;
+    justify-content: flex-start;
+    justify-items: flex-end;
+    text-align: right;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+p {
+    display: flex;
+    font-size: 20px;
+
+}
+
+.register {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    column-gap: 100px;
+}
+
+.login {
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 100px;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(156, 156, 218);
+    color: antiquewhite;
+    width: 200px;
+}
+
+#summary {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.item {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 60px;
+}
+
+.form {
+    display: flex;
+    justify-content: stretch;
+    flex-direction: row;
+    gap: 550px;
+
+}
+
+.form1 {
+    display: grid;
+    width: 500px;
+    height: 70px;
+
+}
+
+#apply {
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 100px;
+    font-size: xx-large;
+    justify-content: center;
+    background-color: rgb(156, 156, 218);
+    align-content: flex-end;
+    color: antiquewhite;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+
+}
+
+.nav2 {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    align-content: flex-end;
+    width:100%;
+    margin-left: 70px;
+}
+
+#list1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.code {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    justify-content: center;
+    font-size: xx-large;
+
+}
+
+.cancel {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    justify-content: right;
+    margin-top: 100px;
+}
+
+.details {
+    display: flex;
+    background-color: rgb(122, 122, 248);
+    border-radius: 100px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    border: 1px solid black;
+}
+
+.total,
+.total1,
+.total2,
+.total3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 700px;
+    font-size: 20px;
+    text-align: end;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.money {
+    display: flex;
+    font-size: xx-large;
+
+}
+
+.email,
+.password {
+    display: grid;
+    width: 500px;
+    height: 70px;
+    margin-bottom: 30px;
+
+}
+
+.nav1 {
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    align-content: flex-start;
+
+}
+.sec2{
+    width: 60%;
+}
